@@ -1,0 +1,13 @@
+.space {
+    width: 550px;
+    background-color: rgb(67, 67, 67);
+    border-radius: 30px;
+    border: 2px solid rgb(134, 132, 132);
+}
+.spaces {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px
+}
