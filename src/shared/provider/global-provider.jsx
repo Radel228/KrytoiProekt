@@ -7,6 +7,7 @@ import { UserStorage } from '../UserStorage/UserStorage'
 function GlobalProvider({ children }) {
 const [user, setUser] = useState(()=>UserStorage.getUserStorage())
 
+
 const value = {
 }
 
